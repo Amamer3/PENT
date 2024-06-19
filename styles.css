@@ -1,0 +1,4 @@
+ /* Ensure the dark mode works properly */
+ body {
+    transition: background-color 0.5s, color 0.5s;
+}

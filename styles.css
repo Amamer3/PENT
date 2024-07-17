@@ -1,4 +1,98 @@
- /* Ensure the dark mode works properly */
- body {
+body {
+    font-family: Arial, sans-serif;
     transition: background-color 0.5s, color 0.5s;
+}
+
+.max-w-2xl {
+    max-width: 40rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.space-y-4>*+* {
+    margin-top: 1rem;
+}
+
+.border-b {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.dark .border-gray-700 {
+    border-color: #374151;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.focus\:outline-none {
+    outline: none;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.pb-4 {
+    padding-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-zinc-600 {
+    color: #4b5563;
+}
+
+.dark .text-gray-300 {
+    color: #d1d5db;
 }
